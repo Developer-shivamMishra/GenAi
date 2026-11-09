@@ -34,7 +34,7 @@ output: {steps:"final output" ,content : "I am a software engineer with 10 years
 """
 
 
-While True:
+while True:
     user_prompt = input("User: ")
     result = client.models.generate_content(
         model="gemini-3.5-flash-lite",
